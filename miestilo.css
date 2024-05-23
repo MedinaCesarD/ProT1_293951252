@@ -1,0 +1,134 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+.parrafo{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.primerContenedor{
+    text-align:justify;
+    font-size: 30px;
+    text-decoration-color: blue;
+}
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+    footer {
+    background-color: #ec15ac; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; }
+    .footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; }
+    /* Estilos para el nav y enlaces de ul y li */
+nav {
+    background-color: #33a3ee;
+    padding: 10px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    }
+    nav ul li a:hover {
+    background-color: #0e65e7;
+    }
+    .productos{
+        border: 5px solid darkblue;
+        height: 150px;
+        width: 200px;
+      
+    }
+    .caja{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background: #e4e99b;
+        text-align: center;
+      }
+
+      .caja p{
+        color: white;
+        font-size: 25px;
+      }
+      .box{
+        width: 450px;
+        height: 300px;
+        background: #CCC;
+        overflow: hidden;
+      }
+      
+      .box img{
+        width: 100%;
+        height: auto;
+      }
+      @supports(object-fit: cover){
+          .box img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+          }
+      }
+
+      body header img {
+        display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+        margin: 0 auto; /* Centrar las imágenes horizontalmente */
+        width: 25%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+        border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+        border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+        }
+     section img {
+           margin: 0 auto;
+           display: block;
+     }
+     #logoface {
+        width: 10%;
+     }
+    #logoinstagra {
+      width: 5%;
+     }
+
+     footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      }
+      footer ul li {
+      display: inline-block;
+      margin-right: 20px;
+      }
+      footer ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      }
+      footer p{
+        text-align: center;
+      }
+
